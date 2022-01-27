@@ -1,2 +1,2 @@
 # RecycleGrabs
-Recycling,Reuse and Rebrand
+Recycling,Reuse and Reduce
