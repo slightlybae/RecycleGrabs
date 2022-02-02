@@ -6,57 +6,66 @@
   }
 
   body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial;
+    background-color:  #F1FBF3;
     
-  }
-
-  a{
-      text-decoration: none;
-  }
-
-  Li{
-      list-style: none;
+    
   }
 
 .navbar{
-    display: flex;
-    align-items: center;
     background-color: #00834C;
-    justify-content: space-between;
+    overflow: hidden;
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+.navbar ul {
+    float: left;
+    text-align: center;
+    
+    
+ }
+
+.navbar a{
+    display: block;
     color: white;
-    padding: 13px;
-   
-}
-
-.nav-links a {
- color: #fff;
- 
-}
-
-.logo{
-    font-size: 10px;
-    font-family: cursive;
-    margin: 2px;
-    padding: 2px;
+    text-align: center;
+    padding: 15px 14px;
+    text-decoration: none;
+    font-size: 15px;
+    
     
 }
 
-.menu{
-    display: flex;
-    gap: 1em;
+ li a:hover {
+ background-color: #c4ebc7;
+ 
+}  
+
+ .navbar img{
+    width: 100%;
+    height: 50px;
+    
+    
+} 
+
+/* .menu{
+    justify-content: space-between;
+    padding: 5px;
+    gap: 1em; */
+    
+
+
+/* .menu a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 14px;
+    text-decoration: none;
     font-size: 15px;
-   
-
-}
-
-.menu li:hover {
- background-color: #4c9e9e;
- border-radius: 3px;
- /* transition: 0.3s ease; */
-}
-.menu li {
- padding: 5px 14px;
-}
+} */
 
 #topsection{
     overflow: hidden;
@@ -74,7 +83,8 @@
 
 #topsection p{
     margin-bottom: 20px;
-    font-size: large;  
+    font-size: large; 
+    text-align: left;
  
 }
 .section2{
@@ -83,7 +93,7 @@
 }
 
  #secondsection{
-    padding-left: 50px;
+    padding-left: 20px;
     padding-right: 20px; 
     width: 100%;
     height: 90px;
@@ -94,18 +104,19 @@
 }
 
 #cleanup{
-    width: 500px;
+    width: 700px;
     height: 300px;
     
 }
 
 #trashbin{
-    width: 300px;
-    height: 250px;
+    width: 400px;
+    height: 290px;
+    
     
 }
 #secondsection p{
-    font-size: large;
+    font-size: 17px;
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
@@ -113,21 +124,79 @@
 }
 
 #acycle{
-    width: 300px;
+    width: 150px;
     height: 200px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 
 }
 
-.section3{
-    overflow: hidden;
-}
-
-#thirdsection{
-    border: solid 2px blue;
+.white{
+    width: auto;
+    height: 200px;
+    background-color: white;
+    border: solid 1px gray;
     padding-left: 20px;
     padding-right: 20px;
-    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+
+.recyclespace{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.recyclespace span{
+    padding: 10px;
+    font-size: large;
+    
+}
+.recyclespace img{
+    width: 50px;
+    height: 56px;
+}
+
+.white p{
+    padding-bottom: 10px;
+}
+
+.white2{
+    width: auto;
+    height: 200px;
+    background-color: white;
+    border: solid 1px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    
+}
+
+.buysell{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.buysell span{
+    padding: 10px;
+    font-size: large;
+    
+}
+.buysell img{
+    width: 50px;
+    height: 56px;
+}
+
+.white2 p{
+    padding-bottom: 10px;
 }
 
