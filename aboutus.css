@@ -16,6 +16,7 @@ body {
     padding-top: 5px;
     margin-bottom: 20px;
 }
+
 .top {
     padding-left: 10px;
     padding-top: 5px;
@@ -23,12 +24,13 @@ body {
 #hcontent {
     float: right;
     margin-top: -40px;
-    color: white;
+    color: white; 
     text-decoration: none;
 } 
 
 .one {
     margin-right: 1110px;
+    
 }
 
 .two {
@@ -52,19 +54,85 @@ body {
     height: 134px;
     margin-left: 420px;
 }
+
 #topic {
-    margin-left: 620px ;
-    font-size:30px ;
+    font-size: 25px ;
     font-weight: bold;
-    margin-top: -5px;
+    margin-top: 10px;
     color: #00834C;
+    text-align: center;
+    
 }
-#body {
-    font-weight: 700;
-    /* text-align: left; */
-    padding-left: 30px;
-    padding-right: 30px;
+
+#section1{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+
+.text{
     color: rgb(46, 46, 46);
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+#text1{
+    float: left;
+    width: 750px;
+    height: 350px;
+    line-height: 50px;  
+}
+
+#right{
+    float: right;
+    width: 750px;
+    height: 350px;
+
+}
+
+.textsection{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#section2{
+    margin-top: 20px;   
+}
+
+#section3{
+    margin-top: 30px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#hilltop{
+    width: 550px;
+    height: auto;
+}
+
+
+#section4{
+    margin-top: 20px;
+}
+
+
+#section5{
+    margin-top: 70px;
+}
+
+#section7{
+    margin-top: 10px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#threer{
+    width: 350px;
+    height: auto;
 }
 
 #footer {
@@ -72,8 +140,9 @@ body {
     background-color: #3C3C3C;
     margin-left: -8px;
     margin-right: -8px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
     margin-top: 100px;
+    
 }
 
 #fcontent{
@@ -95,3 +164,4 @@ body {
     padding-left:1100px;
     margin-top: -400px;
 }
+
