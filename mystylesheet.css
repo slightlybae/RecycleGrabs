@@ -5,127 +5,106 @@
     
   }
 
-  body {
+body {
+    margin: 0;
     font-family: Arial;
     background-color:  #F1FBF3;
     
+  }
+
+  .topnav {
+    overflow: hidden;
+    position: fixed;
+    background-color: #00834C;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    font-weight: 60;
     
   }
 
-.navbar{
-    background-color: #00834C;
-    overflow: hidden;
-    list-style-type: none;
-    display: flex;
-    
-    
-}
-.navbar ul {
-    float: left;
-    text-align: center;
-    
-    
- }
-
-.navbar a{
-    display: block;
+  .topnav a {
     color: white;
     text-align: center;
-    padding: 15px 14px;
+    padding: 1px 20px;
     text-decoration: none;
-    font-size: 15px;
-    
-    
-}
-
- li a:hover {
- background-color: #c4ebc7;
- 
-}  
-
- .navbar img{
-    width: 100%;
-    height: 50px;
-    
-    
-} 
-
-/* .menu{
-    justify-content: space-between;
-    padding: 5px;
-    gap: 1em; */
+    font-size: 17px;
     
 
 
-/* .menu a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px 14px;
-    text-decoration: none;
-    font-size: 15px;
-} */
+  }
 
-#topsection{
+  .topimg{
+      float: none;
+      width: 0px;
+      height: 0px;
+
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+
+  .topnav-left{
+      float: left;
+      padding: 21px 250px;
+
+      
+  }
+
+  .topnav-right {
+    float: right;
+    padding: 21px 10px;
+  }
+
+  .topsection{
     overflow: hidden;
-    width: 1000px;
-    margin: 0px auto;  
     text-align: center; 
+    padding: 70px 10px;
 }
 
 #toppicture{
-    margin-top: 10px;
-    padding: 10px;
-    height: 50px;
+    width: auto;
+    height: 50px
     
 }
 
-#topsection p{
-    margin-bottom: 20px;
-    font-size: large; 
+.topsection p{
+    font-size: 15px; 
     text-align: left;
+    font-family: Arial;
  
 }
-.section2{
-    overflow: visible;
-    text-align: center;
-}
 
- #secondsection{
-    padding-left: 20px;
-    padding-right: 20px; 
-    width: 100%;
-    height: 90px;
+ .secondsection{
+    overflow: hidden;
+    padding: 0px 10px;
     align-self: center;
     text-align: center;
-    display: inline-block;
       
+} 
+.row {
+    display: flex;
+  
 }
+.column img {
+    float: left;
+    width: 100%;
+    height: auto;
+   
+  }
 
-#cleanup{
-    width: 700px;
-    height: 300px;
-    
-}
-
-#trashbin{
-    width: 400px;
-    height: 290px;
-    
-    
-}
-#secondsection p{
-    font-size: 17px;
-    text-align: center;
+.secondsection p{
+    font-size: 15px;
+    text-align: left;
     margin-top: 20px;
     text-decoration: none;
 
 }
 
 #acycle{
-    width: 150px;
-    height: 200px;
+    width: 20%;
+    height: auto;
     margin-top: 2px;
     margin-bottom: 2px;
 
