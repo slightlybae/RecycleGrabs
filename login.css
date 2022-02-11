@@ -51,7 +51,7 @@ body {
 
 #left{
     float: left;
-    width: auto;
+    width: 550px;
     height: 550px;
 
     
@@ -60,7 +60,8 @@ body {
 #icon{
     width: auto;
     height: 250px;
-    
+    /* padding-right: 200px; */
+    padding-left: 250px;
     padding-top: 150px;
     
 }
@@ -68,7 +69,7 @@ body {
 #right{
     float: right;
     background-color: #FFFFFF;
-    width: auto;
+    width: 550px;
     height: 550px;
     margin-top: -15px;
 }
@@ -76,11 +77,12 @@ body {
 #center{
     width: auto;
     height: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 170px;
+    padding-right: 170px;
     padding-top: 100px;
 }
 
 #logintext{
     text-align: center;
+    font-weight: bold;
 }
