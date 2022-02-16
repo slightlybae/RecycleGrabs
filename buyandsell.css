@@ -1,6 +1,5 @@
 * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 
 body {
@@ -17,8 +16,6 @@ body {
 #header {
     background-color: #00834C;
     padding: 5px;
-    margin-bottom: 20px;
-    
 }
 
 .top {
@@ -34,163 +31,141 @@ body {
 
 .one {
     margin-right: 1110px;
-    padding-top: 4px;
+    padding-top: 9px;
     
 }
 
 .two {
     margin-right: 1020px;
-    padding-top: 4px;
+    padding-top: 9px;
 }
 
 .three {
     margin-right: 955px;
-    padding-top: 4px;
+    padding-top: 9px;
 }
 
 .four {
     margin-right: 835px;
-    padding-top: 4px;
+    padding-top: 9px;
 }
 
 .five {
     margin-right: 10px;
-    padding-top: 4px;
+    padding-top: 9px;
 }
 
-.center {
-    text-align: center;
+.topp{
+    width: auto;
+    height: 80px;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
+    background-color: #9ddac0;
+    justify-content: space-evenly;
 }
 
-.center img{
-    width: 20%;
-    height: auto;
+.searchcontainer{
+    position: relative;
+    display: flex;
+    min-width: 100px; 
+    margin-top: 30px;
 }
 
-.middle{
-    width: 30%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
+.searchicon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
 }
 
-.middle p {
-    font-size: 20px ;
-    font-weight: bold;
-    margin-top: 15px;
-    color: #00834C;
-}
-
-.section1{
-   display: flex;
-   margin-top: 50px;
-   margin-left: auto;
-   margin-right: auto;
-  
-}
-
-.text1{
-    width: 50%;
+.inputfield {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 35x;
     padding-left: 30px;
+    width: 650px;
+    outline: 0;
+    background-color: transparent;    
 }
 
-.text1 p{
-    line-height: 50px;  
-    font-size: 17px;
-}
-
-.right{
-    width: 50%;
-    padding-right: 30px;
-}
-
-.right img{
-    height: 350px;
-    
-}
-.section2{
-    margin-top: 50px; 
-    margin-left: auto;
-    margin-right: auto;  
-}
-.section2 p{
-    font-size: 17px;
-    padding-right: 30px;
-    padding-left: 30px;
-    line-height: 20px; 
-    text-align: left;
-}
-
-.section3{
-    margin-top: 50px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.searchbtn{
+    margin-left: 5px;
+    background-color: #00834C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
     
 }
 
-.section3 img{
-    width: 40%;
-    height: auto;
+.accountbtn{
+    margin-top: 30px;
+    /* text-align: center; */
 }
-
-
-.section4{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.section4 p{
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 17px;
-    line-height: 20px; 
-    text-align: left;
-}
-
-
-.section5{
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.section5 #topic{
-    color: #00834C;
-    font-weight: bold;
-    text-align: center;
+.acctbtn{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    font-weight: bolder;
     font-size: large;
-
 }
 
-.section5 p{
-    font-size: 17px;
-    line-height: 20px; 
-    text-align: left;
-}        
+.persons{
+    color: black;
+    /* height: 40px;
+    width: 10%; */
+     font-weight: bolder;
+    font-size: large; 
+} 
 
-.section7{
-    margin-top: 10px;
-    text-align: center;
+.cart{
+    margin-top: 30px;
+}
+
+.cart p{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    color: white;  
+}
+.center{
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;   
 }
 
-.section7 img{
-    width: 30%;
+.center p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: #00834C;
+    
+}
+.imagerow{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-right: 30px;
+    padding-left: 30px; 
+}
+.column img{
+    width: 70%;
     height: auto;
 }
-
 .footer{
     background-color: rgb(56, 56, 56);
     padding-top: 50px;
     padding-bottom: 10px;
-
 }
 
 .footer-links{
